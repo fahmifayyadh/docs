@@ -7,3 +7,9 @@ sudo mv composer-temp.phar /usr/local/bin/composer
 
 Warning: “continue” targeting switch is equivalent to “break”. Did you mean to use “continue 2”?
 composer self-update
+
+
+
+LUMEN
+
+chmod -R o+w projectname/storage
