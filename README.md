@@ -3,6 +3,7 @@
 ### setting FTP
 
 > open FTP remote
+
 https://www.cloudjojo.com/how-to-connect-ec2-machine-with-ftp/<br>
 1. ***allow port ufw firewall ubuntu***
    - $ sudo ufw allow *port*
