@@ -1,7 +1,7 @@
 # APACHE
 
 ## setting FTP
-https://www.cloudjojo.com/how-to-connect-ec2-machine-with-ftp/
+https://www.cloudjojo.com/how-to-connect-ec2-machine-with-ftp/<p>aa</p>
 ->allow port ufw firewall ubuntu
 $ sudo ufw allow *port*
 Port : 20, 21, 80, 443, and open 1200-12100
