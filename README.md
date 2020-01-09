@@ -11,6 +11,7 @@ Port : 20, 21, 80, 443, and open 1200-12100 <br></p>
 # COMPOSER
 
 > permission denied for composer in /usr/local/bin/
+
 '''
 cd ~/.cache/composer
 chmod 755 composer-temp.phar
