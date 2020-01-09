@@ -1,4 +1,4 @@
-APACHE
+#APACHE
 
 setting FTP
 https://www.cloudjojo.com/how-to-connect-ec2-machine-with-ftp/
