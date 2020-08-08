@@ -10,11 +10,11 @@
    - AllowOverride *none* All
    - Require all granted
    - </Directory>
-3. ** Restart dulu apache nya
+3. *** Restart dulu apache nya
    - $ sudo service apache2 restart
-4. ** aktifkan modul rewrite
+4. *** aktifkan modul rewrite
    - $ sudo a2enmod rewrite
-5. ** restart apache kembali
+5. *** restart apache kembali
 
 ### setting FTP
 
