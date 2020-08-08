@@ -1,5 +1,21 @@
 # APACHE
 
+## 404 apache2
+> the requested url was not found
+1. *** masuk apache conf
+   - $ sudoedit /etc/apache2/apache2.conf
+2. *** Setelah itu akan muncul isi file konfigurasi apache2.conf pada terminal. Lalu carilah tulisan seperti dibawah ini : (rubah AllowOverride dari None ke All)
+   - $ <Directory /var/www/>
+   - Options Indexes FollowSymLinks
+   - AllowOverride *none* All
+   - Require all granted
+   - </Directory>
+3. ** Restart dulu apache nya
+   - $ sudo service apache2 restart
+4. ** aktifkan modul rewrite
+   - $ sudo a2enmod rewrite
+5. ** restart apache kembali
+
 ### setting FTP
 
 > open FTP remote
